@@ -3,7 +3,7 @@ if empty(glob('~/.nvim/autoload/plug.vim'))
 endif
 set ttimeoutlen=50
 let g:python_host_prog='/usr/bin/python2'
-call plug#begin('~/.nvim/plugged')
+call plug#begin('~/.vim/plugged')
 Plug 'Valloric/YouCompleteMe'
 Plug 'kiteco/plugins'
 Plug 'altercation/vim-colors-solarized'
